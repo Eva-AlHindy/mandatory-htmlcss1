@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Home</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <header>
+      <nav>
+        <ul>
+          <li class="title">Eva AlHindy</li>
+          <li class="active"><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="movies.html">Movies</a></li>
+          <li><a href="links.html">Links</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="about">
+        <h3>About me...</h3>
+        <table border="0" class="languageTable">
+          <tr>
+            <td>
+              <table border="0">
+                <tr>
+                  <td class="language" onclick="myFunction1()">
+                    Svenska
+                  </td>
+                  <td>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                  </td>
+                  <td class="language" onclick="myFunction2()">
+                    عربي
+                  </td>
+                </tr>
+                <tr>
+                  <td class="language" onclick="myFunction3()">
+                    English
+                  </td>
+                  <td>
+                  </td>
+                </tr>
+              </table>
+            </td>
+            <td>
+              <div id="myDIV2">
+                <p>اسمي إيفا الهندي. مباشرة بعد تخرجي كمهندسة إلكترونيات لمدة خمس سنوات ، حصلت على وظيفة في شركة البترول السورية في دمشق كمبرمج ويب وكنت أعمل هناك لمدة سبع سنوات. حصلت على معرفة جيدة بلغات البرمجة </p>
+                <span> HTML, CSS, JavaScript, Joomla, PHP و MySQL</span>
+                <p><span> React و Angular </span>والآن أركز عل</p>
+                <p><span>(SAS1)</span>لقد انتهيت من دراسة اللغة السويدية </p>
+                <P>و المستوى الخامس من الإنجليزية والآن أدرس برمجة تطوير الواجهة الأمامية لمواقع الانترنت في مركز </p>
+                <span>EC-Education</span>
+              </div>
+              <div id="myDIV1">
+                <p>Jag heter Eva AlHindy. Omedelbart efter examen, en elektronikingenjör i fem år,
+                  fick jag ett jobb hos Syrian Petroleum Company i Damaskus som webbprogrammerare
+                  och jag hade jobbat där i sju år. Där fick jag bra goda kunskaper av programmeringsspråk
+                  HTML, CSS, JavaScript, Joomla, PHP och MySQL och nu fokuserar jag på React och Angular.</p>
+                <p>Jag är klar med Svenska som andraspråk (SAS 1) och engelska - den femte nivån
+                  och nu studerar jag för Frontendutveckling inom EC-Utbildning i växjö.</p>
+              </div>
+              <div id="myDIV3">
+                <p>My name is Eva AlHindy. Immediately after graduating as an electronics engineer for five years,
+                  I got a job at the Syrian Petroleum Company in Damascus as a web programmer and
+                  I had been working there for seven years. I got there a good knowledge of programming languages
+                  HTML, CSS, JavaScript, Joomla, PHP and MySQL and now I focus on React and Angular.</p>
+                <p>I am finished with Swedish as a second language (SAS 1) and English - the fifth level
+                  and now I study for Front end development within EC-Education.</p>
+              </div>
+            </td>
+            <td><img src="img/eva1.png" alt="Eva AlHindy"></td>
+          </tr>
+        </table>
+      </div>
+
+    </main>
+    <footer>
+      <div>
+        <p>CopyRight @2019</p>
+      </div>
+    </footer>
+  </div>
+  <script>
+    function myFunction1() {
+
+      document.getElementById("myDIV1").style.display = "block";
+
+      document.getElementById("myDIV2").style.display = "none";
+
+      document.getElementById("myDIV3").style.display = "none";
+
+    }
+
+    function myFunction2() {
+
+      document.getElementById("myDIV1").style.display = "none";
+
+      document.getElementById("myDIV2").style.display = "block";
+
+      document.getElementById("myDIV3").style.display = "none";
+
+    }
+
+    function myFunction3() {
+
+      document.getElementById("myDIV1").style.display = "none";
+
+      document.getElementById("myDIV2").style.display = "none";
+
+      document.getElementById("myDIV3").style.display = "block";
+
+    }
+  </script>
+</body>
+
+</html>
